@@ -1,14 +1,10 @@
-
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-<script type="text/javascript">
 $(function () {
-        $('#container').highcharts({
+        $('#unicenters').highcharts({
             chart: {
                 type: 'column'
             },
             title: {
-                text: ''
+                text: 'University Centers'
             },
             xAxis: {
                 categories: [
@@ -23,7 +19,7 @@ $(function () {
 		}
             },
             yAxis: {
-                min: 20,
+                min: 30,
 		title: {
 			text: 'Students Graduating',
 			style: {
@@ -55,22 +51,15 @@ $(function () {
             },
             series: [{
                 name: 'National Publics',
-                data: [32.1, 51.2, 56.7],
+                data: [38.0, 58.2, 63.3],
 		drilldown:'national'
     
             }, {
                 name: 'SUNY',
-                data: [45.5, 61.1, 64.0],
+                data: [51.5, 66.8, 69.5],
 		drilldown:'suny'
                }]
+
         });
     });
-		</script>
-
-<script src="http://code.highcharts.com/highcharts.js"></script>
-<script src="http://code.highcharts.com/modules/exporting.js"></script>
-
-<script src="theme.js"></script>
-
-</div>
 
