@@ -1,0 +1,18 @@
+.bigbluebtn {
+	color: #ffffff;
+	font-size: 16px;
+	background: #009EE0;
+	padding: 10px 20px;
+	text-decoration: none;
+	cursor: pointer;
+	display: inline-block;
+	border: none !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.bigbluebtn:hover {
+	background: #3cb0fd;
+	text-decoration: none;
+}

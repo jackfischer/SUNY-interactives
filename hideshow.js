@@ -9,6 +9,7 @@ jQuery(document).ready(function(){
 	    jQuery("#cc").empty();
 	    jQuery("#technical").empty();
 	    jQuery("#unicenters").empty();
+	    jQuery("#comprehensive").empty();
 	    jQuery("<script src=\"http://brian.trump6.com/overall.js\"></script>").appendTo("#overall");
     });
 });
@@ -19,6 +20,7 @@ jQuery(document).ready(function(){
 	    jQuery("#cc").empty();
 	    jQuery("#technical").empty();
 	    jQuery("#unicenters").empty();
+	    jQuery("#comprehensive").empty();
 	    jQuery("<script src=\"http://brian.trump6.com/cc.js\"></script>").appendTo("#overall");
     });
 });
@@ -29,6 +31,7 @@ jQuery(document).ready(function(){
 	    jQuery("#cc").empty();
 	    jQuery("#technical").empty();
 	    jQuery("#unicenters").empty();
+	    jQuery("#comprehensive").empty();
 	    jQuery("<script src=\"http://brian.trump6.com/unicenters.js\"></script>").appendTo("#overall");
     });
 });
@@ -39,6 +42,18 @@ jQuery(document).ready(function(){
 	    jQuery("#cc").empty();
 	    jQuery("#technical").empty();
 	    jQuery("#unicenters").empty();
+	    jQuery("#comprehensive").empty();
 	    jQuery("<script src=\"http://brian.trump6.com/technical.js\"></script>").appendTo("#overall");
+    });
+});
+
+jQuery(document).ready(function(){
+    jQuery('#showcomprehensive').live('click', function(event) {        
+	    jQuery("#overall").empty();
+	    jQuery("#cc").empty();
+	    jQuery("#technical").empty();
+	    jQuery("#unicenters").empty();
+	    jQuery("#comprehensive").empty();
+	    jQuery("<script src=\"http://brian.trump6.com/comprehensive.js\"></script>").appendTo("#overall");
     });
 });

@@ -13,26 +13,24 @@ Highcharts.theme = {
     title: {
         style: {
             color: '#000',
-            font: 'bold 16px "Trebuchet MS", Verdana, sans-serif'
+            fontSize: '1.8em'
         }
     },
     subtitle: {
         style: {
             color: '#666666',
-            font: 'bold 12px "Trebuchet MS", Verdana, sans-serif'
+            font: 'bold 1.2em'
         }
     },
-
     legend: {
         itemStyle: {
-            font: '16pt Trebuchet MS, Verdana, sans-serif',
-            color: 'black'
+            fontSize: '1.4em',
+	    fontWeight: ''
         },
         itemHoverStyle:{
             color: 'gray'
         }   
     }
-
 };
 
 // Apply the theme

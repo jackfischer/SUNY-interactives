@@ -1,10 +1,10 @@
 $(function () {
-        $('#unicenters').highcharts({
+        $('#overall').highcharts({
             chart: {
                 type: 'column'
             },
             title: {
-                text: 'University Centers'
+                text: 'Comprehensive Campuses'
             },
             xAxis: {
                 categories: [
@@ -19,7 +19,7 @@ $(function () {
 		}
             },
             yAxis: {
-                min: 30,
+                min: 20,
 		title: {
 			text: 'Students Graduating',
 			style: {
@@ -51,12 +51,12 @@ $(function () {
             },
             series: [{
                 name: 'National Publics',
-                data: [38.0, 58.2, 63.3],
+                data: [23.2, 41.6, 47.8],
 		drilldown:'national'
     
             }, {
                 name: 'SUNY',
-                data: [51.5, 66.8, 69.5],
+                data: [42.2, 58.3, 61.2],
 		drilldown:'suny'
                }]
 

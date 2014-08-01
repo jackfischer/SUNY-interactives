@@ -4,7 +4,7 @@ $(function () {
                 type: 'column'
             },
             title: {
-                text: 'SUNY vs National'
+                text: 'SUNY vs. National'
             },
             xAxis: {
                 categories: [
@@ -37,8 +37,8 @@ $(function () {
             	}
             },
             tooltip: {
-                headerFormat: '<span style="font-size:120%;">{point.key}</span><table>',
-                pointFormat: '<tr><td style="font-size:70%;color:{series.color};padding:3">{series.name}: </td>'+'<td style="padding:3;font-size:90%;"><b>{point.y:.1f}%</b></td></tr>',
+                headerFormat: '<span style="font-size:150%;">{point.key}</span><table>',
+                pointFormat: '<tr><td style="font-size:125%;color:{series.color};padding:3">{series.name}: </td>'+'<td style="padding:3;font-size:125%;">{point.y:.1f}%</td></tr>',
                 footerFormat: '</table>',
                 shared: true,
                 useHTML: true
