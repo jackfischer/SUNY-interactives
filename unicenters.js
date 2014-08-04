@@ -1,5 +1,5 @@
 $(function () {
-        $('#unicenters').highcharts({
+        $('#overall').highcharts({
             chart: {
                 type: 'column'
             },

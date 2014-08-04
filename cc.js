@@ -1,5 +1,5 @@
 $(function () {
-        $('#cc').highcharts({
+        $('#overall').highcharts({
             chart: {
                 type: 'column'
             },
